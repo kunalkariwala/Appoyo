@@ -1,0 +1,146 @@
+body {
+	background-color: #f8f9fa;
+}
+
+#companylogo {
+	height: 55px;
+}
+
+#companyname {
+	font-family: 'Poppins', sans-serif;
+	padding-left: 80px;
+	font-weight: 600;
+}
+
+#appoyoname {
+	padding-left: 10px;
+	font-size: 1.4rem;
+	color: #2b3c46;
+	letter-spacing: 3px;
+}
+
+#navbarel {
+	margin-left: 20px;
+}
+
+#navbuttons {
+	font-family: 'Poppins', sans-serif;
+	margin-right: 80px;
+	margin-left: 50px;
+}
+
+#loginbutton {
+	color: #2b3c46;
+	border: 2px solid #2b3c46;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#signupbutton {
+	color: white;
+	background-color: #538589;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navbaroptions {
+	margin-left: 500px;
+}
+#navbarlink {
+	margin-left: 20px;
+}
+
+#causeheading {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 1.7rem;
+	letter-spacing: 3px;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+#causelogo {
+	height: 50px;
+}
+
+#allcausecards {
+	margin-top: 30px;
+}
+
+#causeimg {
+	height: 37px;
+	width: 37px;
+}
+
+#causecardimg {
+	position: relative;
+	height: 170px;
+	width: 170px;
+	left: 90px;
+	bottom: 45px;
+}
+
+#cardbackimg {
+	transition-property: all;
+	transition-duration: 3s;
+	transition-timing-function: ease;
+	transition-delay: 1s;
+}
+
+#cardbackimg:hover {
+	content: url('/images/afterhover2.png');
+}
+#causetitle {
+	margin-left: 45px;
+	font-family: 'Poppins', sans-serif;
+	color: #2b3c46;
+	font-size: 1.5rem;
+}
+
+#causetagline {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+	font-size: 1.4rem;
+	margin-left: 10px;
+}
+p {
+	margin-bottom: 0px;
+}
+
+#causeinfo {
+	margin-top: 20px;
+	border: 1px solid #6fa3a7;
+	border-radius: 5px;
+	background-color: #6fa3a7;
+}
+
+#viewbutton {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	color: #538589;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 21px;
+	padding-top: 10px;
+}
+
+#amtraised {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: white;
+}
+
+#ngo {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: white;
+	margin-left: 10px;
+}
+
+#noofngos {
+	margin-left: 30px;
+}
+
+.card {
+	box-shadow: 0 2px 4px 0 rgba(48, 56, 97, 0.2);
+}

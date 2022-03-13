@@ -1,0 +1,131 @@
+body {
+	background-color: #f8f9fa;
+}
+
+#companylogo {
+	height: 55px;
+}
+
+#companyname {
+	font-family: 'Poppins', sans-serif;
+	padding-left: 80px;
+	font-weight: 600;
+}
+
+#appoyoname {
+	padding-left: 10px;
+	font-size: 1.4rem;
+	color: #2b3c46;
+	letter-spacing: 3px;
+}
+
+#navbarel {
+	margin-left: 20px;
+}
+
+#navbuttons {
+	font-family: 'Poppins', sans-serif;
+	margin-right: 80px;
+	margin-left: 50px;
+}
+
+#loginbutton {
+	color: #2b3c46;
+	border: 2px solid #2b3c46;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#signupbutton {
+	color: white;
+	background-color: #538589;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navbaroptions {
+	margin-left: 500px;
+}
+#navbarlink {
+	margin-left: 20px;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+.carousel,
+ul {
+	height: 300px;
+}
+
+.carousel {
+	position: absolute;
+	width: 600px;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+.carousel li {
+	display: inline-block;
+	height: 300px;
+	float: left;
+	position: relative;
+	width: 600px;
+}
+
+.carousel ul {
+	position: absolute;
+	left: 0;
+	top: -15px;
+	list-style: none;
+	margin-left: -50px;
+	transition: left 0.4s linear;
+}
+
+.carousel-container {
+	margin: 0 auto;
+	padding: 0;
+	width: 600px;
+}
+
+.carousel-container img {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.carousel ul {
+	animation: slide-animation 15s infinite;
+}
+
+.carousel ul:hover {
+	animation-play-state: paused;
+}
+
+@keyframes slide-animation {
+	20% {
+		left: 0px;
+	}
+	25% {
+		left: -600px;
+	}
+	45% {
+		left: -600px;
+	}
+	50% {
+		left: -1200px;
+	}
+	70% {
+		left: -1200px;
+	}
+	75% {
+		left: -1800px;
+	}
+	98% {
+		left: -1800px;
+	}
+	100% {
+		left: 0px;
+	}
+}

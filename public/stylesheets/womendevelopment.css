@@ -1,0 +1,147 @@
+body {
+	background-color: #f8f9fa;
+	perspective: 220px;
+}
+
+#companylogo {
+	height: 55px;
+}
+
+#companyname {
+	font-family: 'Poppins', sans-serif;
+	padding-left: 80px;
+	font-weight: 600;
+}
+
+#appoyoname {
+	padding-left: 10px;
+	font-size: 1.4rem;
+	color: #2b3c46;
+	letter-spacing: 3px;
+}
+
+#navbarel {
+	margin-left: 20px;
+}
+
+#navbuttons {
+	font-family: 'Poppins', sans-serif;
+	margin-right: 80px;
+	margin-left: 50px;
+}
+
+#loginbutton {
+	color: #2b3c46;
+	border: 2px solid #2b3c46;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#signupbutton {
+	color: white;
+	background-color: #538589;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navbaroptions {
+	margin-left: 500px;
+}
+#navbarlink {
+	margin-left: 20px;
+}
+
+p {
+	margin-bottom: 0px;
+}
+#causename {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 2.3rem;
+	letter-spacing: 3px;
+	color: #538589;
+}
+
+#causetagline {
+	margin-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+	font-size: 1.4rem;
+	margin-bottom: 40px;
+}
+
+#causedes {
+	font-family: 'Raleway', sans-serif;
+}
+
+#donatebutton {
+	background-color: #538589;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	width: 150px;
+	margin-top: 20px;
+}
+
+#viewngobutton {
+	background-color: white;
+	color: #538589;
+	font-family: 'Poppins', sans-serif;
+	width: 250px;
+	margin-top: 20px;
+	border: 1px solid #538589;
+	margin-left: 10px;
+}
+
+#backgroundimg {
+	height: 350px;
+	width: 700px;
+}
+
+#womendevpics {
+	position: relative;
+}
+
+#causedesimg1 {
+	width: 80%;
+	margin-top: 30px;
+	box-shadow: 0 2px 4px 0 rgba(48, 56, 97, 0.2);
+	position: absolute;
+	z-index: 3;
+	left: 20px;
+}
+#causedesimg2 {
+	width: 80%;
+	margin-top: 20px;
+	box-shadow: 0 2px 4px 0 rgba(48, 56, 97, 0.2);
+	position: absolute;
+	top: 250px;
+	z-index: 3;
+	left: 20px;
+}
+#causedesimg3 {
+	width: 80%;
+	margin-top: 60px;
+	box-shadow: 0 2px 4px 0 rgba(48, 56, 97, 0.2);
+	position: absolute;
+	top: 270px;
+	z-index: 3;
+}
+#causedesimg4 {
+	width: 80%;
+	margin-top: 20px;
+	box-shadow: 0 2px 4px 0 rgba(48, 56, 97, 0.2);
+	position: absolute;
+	z-index: 3;
+	top: 60px;
+}
+
+#backgroundimg {
+	position: absolute;
+	z-index: -1;
+	top: 50px;
+	width: 93%;
+	height: 400px;
+	transform: rotateY(-4deg);
+}
